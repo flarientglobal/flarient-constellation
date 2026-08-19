@@ -1,0 +1,13 @@
+{
+  "cost_classification": "ZERO",
+  "base44_credit_dependency": false,
+  "external_paid_dependency": false,
+  "fallback_available": true,
+  "notes": "All data fetched directly from NOAA SWPC and NASA NeoWS (free, public). AI via Groq/Cloudflare free tiers with template fallback. No Base44 credits consumed.",
+  "degradation_rules": {
+    "groq_unavailable": "fall_back_to_cloudflare",
+    "cloudflare_unavailable": "fall_back_to_templates",
+    "all_ai_unavailable": "use_templates_only",
+    "data_source_unavailable": "skip_cycle_and_log"
+  }
+}
