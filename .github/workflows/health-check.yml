@@ -1,0 +1,21 @@
+name: Constellation Health Check
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check recent commits
+        run: |
+          LAST_COMMIT=$(git log -1 --format=%ci 2>/dev/null || echo "none")
+          echo "Last commit: $LAST_COMMIT"
