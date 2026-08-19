@@ -1,0 +1,62 @@
+name: Flarient Constellation
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Every 30 minutes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: constellation
+  cancel-in-progress: false
+
+jobs:
+  constellation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Constellation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: python src/main.py
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: constellation-${{ github.run_id }}
+          path: |
+            state/
+            events/
+            docs/badges/
+          retention-days: 7
+          if-no-files-found: warn
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Flarient Constellation" >> ${{ github.step_summary }}
+          echo "Cost: ZERO (no Base44 credits consumed)" >> ${{ github.step_summary }}
+          echo "Data: NOAA SWPC + NASA NeoWS (direct fetch)" >> ${{ github.step_summary }}
+          echo "AI: Groq/Cloudflare free tier + template fallback" >> ${{ github.step_summary }}
