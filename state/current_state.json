@@ -1,0 +1,46 @@
+{
+  "fetched_at": "2026-08-19T06:03:27.491766+00:00",
+  "kp": 5,
+  "kp_time": "2026-08-19T05:58:00",
+  "bz": null,
+  "solar_wind_speed": null,
+  "solar_wind_density": null,
+  "flare_class": "unknown",
+  "flare_time": null,
+  "neo_count": 4,
+  "neo_objects": [
+    {
+      "id": "3746623",
+      "name": "(2016 EF156)",
+      "diameter_m": 68.2,
+      "is_hazardous": false,
+      "miss_distance_km": 73046158,
+      "velocity_km_s": 21.9
+    },
+    {
+      "id": "3879168",
+      "name": "(2019 TZ6)",
+      "diameter_m": 17.1,
+      "is_hazardous": false,
+      "miss_distance_km": 57188453,
+      "velocity_km_s": 9.0
+    },
+    {
+      "id": "3893638",
+      "name": "(2019 WC4)",
+      "diameter_m": 196.8,
+      "is_hazardous": false,
+      "miss_distance_km": 36198395,
+      "velocity_km_s": 10.0
+    },
+    {
+      "id": "3989138",
+      "name": "(2020 BV5)",
+      "diameter_m": 30.6,
+      "is_hazardous": false,
+      "miss_distance_km": 55406602,
+      "velocity_km_s": 17.2
+    }
+  ],
+  "_state_hash": "dbcbd7d9c3a53de3d98f06f0d6cb0a59b3e59ca2728d86154d8af4d9d4044055"
+}

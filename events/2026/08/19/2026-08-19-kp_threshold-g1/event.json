@@ -1,0 +1,30 @@
+{
+  "event_id": "2026-08-19-kp_threshold-g1",
+  "event_type": "kp_threshold",
+  "status": "active",
+  "severity": "G1",
+  "novelty": "new",
+  "confidence": "moderate",
+  "started_at": "2026-08-19T06:03:27.492640+00:00",
+  "updated_at": "2026-08-19T06:03:27.492640+00:00",
+  "kp": 5,
+  "bz": null,
+  "solar_wind": null,
+  "xray_class": null,
+  "data_sources": [
+    "NOAA SWPC",
+    "NASA NeoWS"
+  ],
+  "previous_state": {},
+  "current_state": {
+    "kp": 5,
+    "bz": null,
+    "solar_wind_speed": null,
+    "flare_class": "unknown"
+  },
+  "flarient_url": "https://flarient.com/storm",
+  "viral_information_score": 50,
+  "public_summary": "G1 kp threshold: Kp crossed G1 (0 -> 5) See flarient.com for details.",
+  "technical_summary": "Kp crossed G1 (0 -> 5)",
+  "ai_source": "template"
+}
