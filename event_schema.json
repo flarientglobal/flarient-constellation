@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Flarient Canonical Event Object",
+  "description": "One common schema for all meaningful Flarient events.",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "status",
+    "started_at"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "solar_flare",
+        "geomagnetic_storm",
+        "kp_threshold",
+        "cme",
+        "radio_blackout",
+        "aurora_expansion",
+        "solar_wind_threshold",
+        "bz_threshold",
+        "neo_approach",
+        "prediction_market_created",
+        "prediction_market_probability_shift",
+        "forecast_resolved",
+        "human_ai_lead_change",
+        "human_ai_disagreement",
+        "forecaster_streak",
+        "major_space_event",
+        "forecast_consensus_shift",
+        "record_detected",
+        "new_space_weather_warning",
+        "event_resolution"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "watch",
+        "active",
+        "peak",
+        "declining",
+        "ended",
+        "resolved"
+      ]
+    },
+    "severity": {
+      "type": "string"
+    },
+    "novelty": {
+      "type": "string",
+      "enum": [
+        "new",
+        "update",
+        "escalation",
+        "de_escalation",
+        "resolution"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "peak_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_region": {
+      "type": "string"
+    },
+    "xray_class": {
+      "type": "string"
+    },
+    "earth_directed": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "kp": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "bz": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "solar_wind": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "expected_impacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "previous_state": {
+      "type": "object"
+    },
+    "current_state": {
+      "type": "object"
+    },
+    "changed_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_markets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "event_passport_url": {
+      "type": "string"
+    },
+    "flarient_url": {
+      "type": "string"
+    },
+    "human_probability": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "ai_probability": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "hybrid_probability": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "disagreement_score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "viral_information_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "share_text": {
+      "type": "string"
+    },
+    "technical_summary": {
+      "type": "string"
+    },
+    "public_summary": {
+      "type": "string"
+    }
+  }
+}
