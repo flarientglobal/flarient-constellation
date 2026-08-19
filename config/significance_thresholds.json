@@ -1,0 +1,67 @@
+{
+  "kp_thresholds": [
+    {
+      "value": 5,
+      "label": "G1",
+      "significance": "minor"
+    },
+    {
+      "value": 6,
+      "label": "G2",
+      "significance": "moderate"
+    },
+    {
+      "value": 7,
+      "label": "G3",
+      "significance": "strong"
+    },
+    {
+      "value": 8,
+      "label": "G4",
+      "significance": "severe"
+    },
+    {
+      "value": 9,
+      "label": "G5",
+      "significance": "extreme"
+    }
+  ],
+  "bz_thresholds": [
+    {
+      "value": -10,
+      "significance": "minor"
+    },
+    {
+      "value": -20,
+      "significance": "major"
+    }
+  ],
+  "solar_wind_thresholds": [
+    {
+      "value": 600,
+      "significance": "elevated"
+    },
+    {
+      "value": 800,
+      "significance": "high"
+    }
+  ],
+  "flare_thresholds": [
+    {
+      "class": "M",
+      "significance": "moderate"
+    },
+    {
+      "class": "X",
+      "significance": "major"
+    }
+  ],
+  "neo_thresholds": {
+    "min_diameter_m": 50,
+    "max_miss_distance_ld": 10,
+    "potentially_hazardous_only": false
+  },
+  "market_shift_threshold_pct": 10,
+  "disagreement_threshold_pct": 20,
+  "aurora_expansion_threshold_lat": 55
+}
