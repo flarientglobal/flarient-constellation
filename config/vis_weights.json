@@ -1,0 +1,38 @@
+{
+  "scientific_importance": 20,
+  "novelty": 15,
+  "visual_potential": 10,
+  "human_relevance": 15,
+  "forecast_surprise": 10,
+  "human_ai_disagreement": 10,
+  "magnitude": 10,
+  "rarity": 10,
+  "recency": 5,
+  "location_relevance": 5,
+  "distribution_levels": {
+    "none": [
+      0,
+      29
+    ],
+    "badges_only": [
+      30,
+      49
+    ],
+    "short_explanation": [
+      50,
+      69
+    ],
+    "social_content": [
+      70,
+      84
+    ],
+    "full_package": [
+      85,
+      94
+    ],
+    "breaking": [
+      95,
+      100
+    ]
+  }
+}
