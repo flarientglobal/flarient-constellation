@@ -1,0 +1,25 @@
+{
+  "providers": [
+    {
+      "name": "groq",
+      "enabled": true,
+      "api_key_secret": "GROQ_API_KEY",
+      "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+      "model": "llama-3.3-70b-versatile",
+      "max_tokens": 500,
+      "timeout_sec": 15
+    },
+    {
+      "name": "cloudflare",
+      "enabled": true,
+      "api_key_secret": "CLOUDFLARE_API_TOKEN",
+      "account_id_secret": "CLOUDFLARE_ACCOUNT_ID",
+      "endpoint": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/meta/llama-3.1-8b-instruct",
+      "max_tokens": 500,
+      "timeout_sec": 15
+    }
+  ],
+  "fallback": "templates",
+  "circuit_breaker_threshold": 3,
+  "rate_limit_cooldown_sec": 300
+}
