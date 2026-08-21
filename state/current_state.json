@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-21T16:01:06.182727+00:00",
-  "kp": 0,
-  "kp_time": "2026-08-21T15:58:00",
+  "fetched_at": "2026-08-21T17:56:51.251301+00:00",
+  "kp": 1,
+  "kp_time": "2026-08-21T17:53:00",
   "bz": null,
   "solar_wind_speed": null,
   "solar_wind_density": null,
@@ -58,5 +58,5 @@
       "velocity_km_s": 5.1
     }
   ],
-  "_state_hash": "8d26ecaac55bc115739bcdc23439218a269bb084898e62126e5224c7a1584ca9"
+  "_state_hash": "d7c84f4bad5168f38793db01b0d7629e92710acae025bf12ee17e00f78caf744"
 }
