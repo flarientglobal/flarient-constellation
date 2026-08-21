@@ -1,46 +1,62 @@
 {
-  "fetched_at": "2026-08-20T21:01:58.506938+00:00",
-  "kp": 2,
-  "kp_time": "2026-08-20T20:59:00",
+  "fetched_at": "2026-08-21T03:31:16.234690+00:00",
+  "kp": 0,
+  "kp_time": "2026-08-21T03:28:00",
   "bz": null,
   "solar_wind_speed": null,
   "solar_wind_density": null,
   "flare_class": "unknown",
   "flare_time": null,
-  "neo_count": 4,
+  "neo_count": 6,
   "neo_objects": [
     {
-      "id": "3297182",
-      "name": "(2005 UE1)",
-      "diameter_m": 34.2,
+      "id": "2357621",
+      "name": "357621 (2005 EG94)",
+      "diameter_m": 1018.7,
       "is_hazardous": false,
-      "miss_distance_km": 71146097,
-      "velocity_km_s": 18.2
+      "miss_distance_km": 12358640,
+      "velocity_km_s": 10.9
     },
     {
-      "id": "3651160",
-      "name": "(2013 TH135)",
-      "diameter_m": 407.4,
+      "id": "3645793",
+      "name": "(2013 PO43)",
+      "diameter_m": 297.9,
       "is_hazardous": false,
-      "miss_distance_km": 60284891,
-      "velocity_km_s": 2.2
+      "miss_distance_km": 55154040,
+      "velocity_km_s": 5.6
     },
     {
-      "id": "3842867",
-      "name": "(2019 LR4)",
-      "diameter_m": 54.2,
-      "is_hazardous": false,
-      "miss_distance_km": 14332478,
-      "velocity_km_s": 8.7
+      "id": "3694987",
+      "name": "(2014 UR116)",
+      "diameter_m": 651.7,
+      "is_hazardous": true,
+      "miss_distance_km": 60665428,
+      "velocity_km_s": 19.5
     },
     {
-      "id": "3843605",
-      "name": "(2019 QR1)",
-      "diameter_m": 74.8,
+      "id": "3761271",
+      "name": "(2016 US4)",
+      "diameter_m": 78.0,
       "is_hazardous": false,
-      "miss_distance_km": 62238840,
-      "velocity_km_s": 16.5
+      "miss_distance_km": 50395175,
+      "velocity_km_s": 16.0
+    },
+    {
+      "id": "3772386",
+      "name": "(2017 FN64)",
+      "diameter_m": 236.6,
+      "is_hazardous": false,
+      "miss_distance_km": 46526521,
+      "velocity_km_s": 20.1
+    },
+    {
+      "id": "3842885",
+      "name": "(2019 LK5)",
+      "diameter_m": 995.5,
+      "is_hazardous": false,
+      "miss_distance_km": 69615323,
+      "velocity_km_s": 5.1
     }
   ],
-  "_state_hash": "9412e6d4d5b68f518681ee6de8f080eacde65e9e7f72baa2d75369f60b437f82"
+  "_state_hash": "8d26ecaac55bc115739bcdc23439218a269bb084898e62126e5224c7a1584ca9"
 }
