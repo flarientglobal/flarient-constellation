@@ -57,6 +57,6 @@ jobs:
         if: always()
         run: |
           echo "## Flarient Constellation" >> ${{ github.step_summary }}
-          echo "Cost: ZERO (no Base44 credits consumed)" >> ${{ github.step_summary }}
+          echo "Cost: ZERO (all processing on GitHub Actions)" >> ${{ github.step_summary }}
           echo "Data: NOAA SWPC + NASA NeoWS (direct fetch)" >> ${{ github.step_summary }}
           echo "AI: Groq/Cloudflare free tier + template fallback" >> ${{ github.step_summary }}
