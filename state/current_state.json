@@ -1,62 +1,46 @@
 {
-  "fetched_at": "2026-08-21T22:55:18.990587+00:00",
-  "kp": 1,
-  "kp_time": "2026-08-21T22:51:00",
+  "fetched_at": "2026-08-22T03:08:54.614735+00:00",
+  "kp": 0,
+  "kp_time": "2026-08-22T03:06:00",
   "bz": null,
   "solar_wind_speed": null,
   "solar_wind_density": null,
   "flare_class": "unknown",
   "flare_time": null,
-  "neo_count": 6,
+  "neo_count": 4,
   "neo_objects": [
     {
-      "id": "2357621",
-      "name": "357621 (2005 EG94)",
-      "diameter_m": 1018.7,
+      "id": "3256323",
+      "name": "(2004 TF10)",
+      "diameter_m": 383.7,
       "is_hazardous": false,
-      "miss_distance_km": 12358640,
-      "velocity_km_s": 10.9
+      "miss_distance_km": 15284218,
+      "velocity_km_s": 10.0
     },
     {
-      "id": "3645793",
-      "name": "(2013 PO43)",
-      "diameter_m": 297.9,
+      "id": "3276216",
+      "name": "(2005 GO59)",
+      "diameter_m": 448.8,
       "is_hazardous": false,
-      "miss_distance_km": 55154040,
-      "velocity_km_s": 5.6
+      "miss_distance_km": 32949922,
+      "velocity_km_s": 28.8
     },
     {
-      "id": "3694987",
-      "name": "(2014 UR116)",
-      "diameter_m": 651.7,
-      "is_hazardous": true,
-      "miss_distance_km": 60665428,
-      "velocity_km_s": 19.5
+      "id": "3742875",
+      "name": "(2016 CD137)",
+      "diameter_m": 35.8,
+      "is_hazardous": false,
+      "miss_distance_km": 27984680,
+      "velocity_km_s": 12.9
     },
     {
-      "id": "3761271",
-      "name": "(2016 US4)",
-      "diameter_m": 78.0,
+      "id": "3827143",
+      "name": "(2018 QT1)",
+      "diameter_m": 226.0,
       "is_hazardous": false,
-      "miss_distance_km": 50395175,
-      "velocity_km_s": 16.0
-    },
-    {
-      "id": "3772386",
-      "name": "(2017 FN64)",
-      "diameter_m": 236.6,
-      "is_hazardous": false,
-      "miss_distance_km": 46526521,
-      "velocity_km_s": 20.1
-    },
-    {
-      "id": "3842885",
-      "name": "(2019 LK5)",
-      "diameter_m": 995.5,
-      "is_hazardous": false,
-      "miss_distance_km": 69615323,
-      "velocity_km_s": 5.1
+      "miss_distance_km": 19233984,
+      "velocity_km_s": 14.9
     }
   ],
-  "_state_hash": "d7c84f4bad5168f38793db01b0d7629e92710acae025bf12ee17e00f78caf744"
+  "_state_hash": "1fdb6cffbe252d7a3858469d3eaa14f6db596d57bd43801bce406aff44584f33"
 }
