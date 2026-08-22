@@ -1,5 +1,5 @@
 """Fetch upstream space weather data directly from NOAA SWPC and NASA NeoWS.
-Zero-cost: all endpoints are free and public. No Base44 credits consumed.
+Zero-cost: all endpoints are free and public. All processing on GitHub Actions.
 """
 import json, os, sys, urllib.request, urllib.error, datetime
 
