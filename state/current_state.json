@@ -1,46 +1,38 @@
 {
-  "fetched_at": "2026-08-22T21:47:53.691970+00:00",
+  "fetched_at": "2026-08-23T03:31:15.453368+00:00",
   "kp": 0,
-  "kp_time": "2026-08-22T21:44:00",
+  "kp_time": "2026-08-23T03:28:00",
   "bz": null,
   "solar_wind_speed": null,
   "solar_wind_density": null,
   "flare_class": "unknown",
   "flare_time": null,
-  "neo_count": 4,
+  "neo_count": 3,
   "neo_objects": [
     {
-      "id": "3256323",
-      "name": "(2004 TF10)",
-      "diameter_m": 383.7,
+      "id": "3368738",
+      "name": "(2007 DK8)",
+      "diameter_m": 912.1,
       "is_hazardous": false,
-      "miss_distance_km": 15284218,
-      "velocity_km_s": 10.0
+      "miss_distance_km": 47187424,
+      "velocity_km_s": 23.2
     },
     {
-      "id": "3276216",
-      "name": "(2005 GO59)",
-      "diameter_m": 448.8,
+      "id": "3759245",
+      "name": "(2016 RT17)",
+      "diameter_m": 117.0,
       "is_hazardous": false,
-      "miss_distance_km": 32949922,
-      "velocity_km_s": 28.8
+      "miss_distance_km": 26833135,
+      "velocity_km_s": 8.9
     },
     {
-      "id": "3742875",
-      "name": "(2016 CD137)",
-      "diameter_m": 35.8,
+      "id": "3843638",
+      "name": "(2019 QC4)",
+      "diameter_m": 119.7,
       "is_hazardous": false,
-      "miss_distance_km": 27984680,
-      "velocity_km_s": 12.9
-    },
-    {
-      "id": "3827143",
-      "name": "(2018 QT1)",
-      "diameter_m": 226.0,
-      "is_hazardous": false,
-      "miss_distance_km": 19233984,
-      "velocity_km_s": 14.9
+      "miss_distance_km": 19189987,
+      "velocity_km_s": 13.1
     }
   ],
-  "_state_hash": "1fdb6cffbe252d7a3858469d3eaa14f6db596d57bd43801bce406aff44584f33"
+  "_state_hash": "0864bd209217876534cb40689610fbb77060d1f0f788f33d9247e02bffd7d830"
 }
