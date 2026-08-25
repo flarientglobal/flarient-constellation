@@ -1,46 +1,62 @@
 {
-  "fetched_at": "2026-08-24T23:48:41.738640+00:00",
-  "kp": 3,
-  "kp_time": "2026-08-24T23:44:00",
+  "fetched_at": "2026-08-25T03:16:18.702958+00:00",
+  "kp": 1,
+  "kp_time": "2026-08-25T00:50:00",
   "bz": null,
   "solar_wind_speed": null,
   "solar_wind_density": null,
   "flare_class": "unknown",
   "flare_time": null,
-  "neo_count": 4,
+  "neo_count": 6,
   "neo_objects": [
     {
-      "id": "3374389",
-      "name": "(2007 HL4)",
-      "diameter_m": 90.0,
+      "id": "3274304",
+      "name": "(2005 EY169)",
+      "diameter_m": 207.0,
       "is_hazardous": false,
-      "miss_distance_km": 34623113,
-      "velocity_km_s": 4.1
+      "miss_distance_km": 62610526,
+      "velocity_km_s": 11.3
     },
     {
-      "id": "3774093",
-      "name": "(2017 HV3)",
-      "diameter_m": 105.7,
+      "id": "3765021",
+      "name": "(2016 XJ)",
+      "diameter_m": 19.7,
       "is_hazardous": false,
-      "miss_distance_km": 27073027,
-      "velocity_km_s": 9.1
+      "miss_distance_km": 59946801,
+      "velocity_km_s": 5.6
     },
     {
-      "id": "3840689",
-      "name": "(2019 FO)",
-      "diameter_m": 68.2,
+      "id": "3838860",
+      "name": "(2019 DN1)",
+      "diameter_m": 10.3,
       "is_hazardous": false,
-      "miss_distance_km": 47124399,
-      "velocity_km_s": 11.9
+      "miss_distance_km": 65395170,
+      "velocity_km_s": 16.0
     },
     {
-      "id": "3893945",
-      "name": "(2019 XV)",
-      "diameter_m": 8.6,
+      "id": "3840866",
+      "name": "(2019 GJ4)",
+      "diameter_m": 37.2,
       "is_hazardous": false,
-      "miss_distance_km": 62333549,
-      "velocity_km_s": 13.9
+      "miss_distance_km": 50210606,
+      "velocity_km_s": 14.7
+    },
+    {
+      "id": "3840886",
+      "name": "(2019 GV5)",
+      "diameter_m": 7.8,
+      "is_hazardous": false,
+      "miss_distance_km": 31170093,
+      "velocity_km_s": 5.9
+    },
+    {
+      "id": "3842940",
+      "name": "(2019 MH1)",
+      "diameter_m": 67.9,
+      "is_hazardous": false,
+      "miss_distance_km": 54786652,
+      "velocity_km_s": 23.0
     }
   ],
-  "_state_hash": "5b878099e6fa7a094678e4a604350682c8e772b30f089d74b342b2685c871014"
+  "_state_hash": "d7c84f4bad5168f38793db01b0d7629e92710acae025bf12ee17e00f78caf744"
 }
