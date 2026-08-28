@@ -1,0 +1,35 @@
+{
+  "event_id": "2026-08-28-neo_approach-hazardous",
+  "event_type": "neo_approach",
+  "status": "active",
+  "severity": "hazardous",
+  "novelty": "new",
+  "confidence": "moderate",
+  "started_at": "2026-08-28T04:37:34.243691+00:00",
+  "updated_at": "2026-08-28T04:37:34.243691+00:00",
+  "kp": 0,
+  "bz": null,
+  "solar_wind": null,
+  "xray_class": null,
+  "data_sources": [
+    "NOAA SWPC",
+    "NASA NeoWS"
+  ],
+  "previous_state": {
+    "kp": 0,
+    "bz": null,
+    "solar_wind_speed": null,
+    "flare_class": "unknown"
+  },
+  "current_state": {
+    "kp": 0,
+    "bz": null,
+    "solar_wind_speed": null,
+    "flare_class": "unknown"
+  },
+  "flarient_url": "https://flarient.com/near-earth-objects",
+  "viral_information_score": 56,
+  "public_summary": "hazardous neo approach: NEO 221455 (2006 BC10): 741.4m, 9.3 LD See flarient.com for details.",
+  "technical_summary": "NEO 221455 (2006 BC10): 741.4m, 9.3 LD",
+  "ai_source": "template"
+}

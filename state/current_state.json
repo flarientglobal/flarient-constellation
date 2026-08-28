@@ -1,62 +1,54 @@
 {
-  "fetched_at": "2026-08-25T14:28:19.933944+00:00",
+  "fetched_at": "2026-08-28T04:37:34.242729+00:00",
   "kp": 0,
-  "kp_time": "2026-08-25T14:24:00",
+  "kp_time": "2026-08-28T04:34:00",
   "bz": null,
   "solar_wind_speed": null,
   "solar_wind_density": null,
   "flare_class": "unknown",
   "flare_time": null,
-  "neo_count": 6,
+  "neo_count": 5,
   "neo_objects": [
     {
-      "id": "3274304",
-      "name": "(2005 EY169)",
-      "diameter_m": 207.0,
-      "is_hazardous": false,
-      "miss_distance_km": 62610526,
-      "velocity_km_s": 11.3
+      "id": "2221455",
+      "name": "221455 (2006 BC10)",
+      "diameter_m": 741.4,
+      "is_hazardous": true,
+      "miss_distance_km": 3584833,
+      "velocity_km_s": 19.0
     },
     {
-      "id": "3765021",
-      "name": "(2016 XJ)",
-      "diameter_m": 19.7,
+      "id": "3757397",
+      "name": "(2016 PP39)",
+      "diameter_m": 171.4,
       "is_hazardous": false,
-      "miss_distance_km": 59946801,
-      "velocity_km_s": 5.6
+      "miss_distance_km": 45742161,
+      "velocity_km_s": 7.6
     },
     {
-      "id": "3838860",
-      "name": "(2019 DN1)",
-      "diameter_m": 10.3,
-      "is_hazardous": false,
-      "miss_distance_km": 65395170,
-      "velocity_km_s": 16.0
+      "id": "3767248",
+      "name": "(2017 BP31)",
+      "diameter_m": 639.8,
+      "is_hazardous": true,
+      "miss_distance_km": 4278975,
+      "velocity_km_s": 20.5
     },
     {
-      "id": "3840866",
-      "name": "(2019 GJ4)",
-      "diameter_m": 37.2,
+      "id": "3770141",
+      "name": "(2017 DR37)",
+      "diameter_m": 245.5,
       "is_hazardous": false,
-      "miss_distance_km": 50210606,
-      "velocity_km_s": 14.7
+      "miss_distance_km": 68191142,
+      "velocity_km_s": 13.5
     },
     {
-      "id": "3840886",
-      "name": "(2019 GV5)",
-      "diameter_m": 7.8,
+      "id": "3843107",
+      "name": "(2019 NC1)",
+      "diameter_m": 311.9,
       "is_hazardous": false,
-      "miss_distance_km": 31170093,
-      "velocity_km_s": 5.9
-    },
-    {
-      "id": "3842940",
-      "name": "(2019 MH1)",
-      "diameter_m": 67.9,
-      "is_hazardous": false,
-      "miss_distance_km": 54786652,
-      "velocity_km_s": 23.0
+      "miss_distance_km": 46139345,
+      "velocity_km_s": 12.5
     }
   ],
-  "_state_hash": "8d26ecaac55bc115739bcdc23439218a269bb084898e62126e5224c7a1584ca9"
+  "_state_hash": "8d915c703b47bb076d4c9b8ff782a1db9de7cacb60c24340eb19e354693067d8"
 }
